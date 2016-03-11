@@ -15,18 +15,19 @@ If you haven't already done so, you'll need to ignore the project output:-
 
 	printf '%s\n' 'out/' >> .gitignore
 
-And you will also need to make sure `workspace.xml` doesn't get checked in:-
-
-	printf '%s\n' 'workspace.xml' >> .idea-local/.gitignore
-
 I strongly suggest you copy the contents a `.idea-local` from an existing project, eg [java-classfile]. Alternatively, create the following files inside `.idea-local`:-
 
 	.name
 	misc.xml
 	modules.xml
-	workspace.xml
 	vcs.xml
-	copyright/
+	copyright/*
+
+`.name` is just the name of your project _without_ a trailing line feed. Typically this is just your GitHub repository name.
+
+Optionally, create also:-
+
+	runConfigurations/*
 
 To add libraries into `.idea-local/libraries/`, you'll need to create `*.xml` files in `.idea-local/libraries/`. The easiest way to do this is to follow the instructions for already created libraries which can be installed as submodules:-
 
