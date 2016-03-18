@@ -22,6 +22,7 @@ I strongly suggest you copy the contents a `.idea-local` from an existing projec
 	modules.xml
 	vcs.xml
 	copyright/*
+	dictionaries/*
 
 `.name` is just the name of your project _without_ a trailing line feed. Typically this is just your GitHub repository name.
 
