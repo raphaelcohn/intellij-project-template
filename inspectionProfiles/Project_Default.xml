@@ -4,7 +4,7 @@
     <option name="myLocal" value="false" />
     <inspection_tool class="AbsoluteAlignmentInUserInterface" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="AbstractClassNeverImplemented" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="AbstractClassWithoutAbstractMethods" enabled="true" level="INFO" enabled_by_default="true" />
+    <inspection_tool class="AbstractClassWithoutAbstractMethods" enabled="true" level="For Interest" enabled_by_default="true" />
     <inspection_tool class="AbstractMethodOverridesAbstractMethod" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoreAnnotations" value="true" />
     </inspection_tool>
@@ -27,7 +27,7 @@
       <option name="onlyWarnOnBoolean" value="false" />
     </inspection_tool>
     <inspection_tool class="AssignmentToCatchBlockParameter" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="AssignmentToCollectionFieldFromParameter" enabled="true" level="INFO" enabled_by_default="true">
+    <inspection_tool class="AssignmentToCollectionFieldFromParameter" enabled="true" level="For Interest" enabled_by_default="true">
       <option name="ignorePrivateMethods" value="true" />
     </inspection_tool>
     <inspection_tool class="AssignmentToDateFieldFromParameter" enabled="true" level="WARNING" enabled_by_default="true">
@@ -79,7 +79,7 @@
       <option name="onlyWarnOnBaseMethods" value="true" />
       <option name="questionString" value="add,are,can,check,contains,could,endsWith,equals,has,is,matches,must,remove,shall,should,startsWith,was,were,will,would,does,have" />
     </inspection_tool>
-    <inspection_tool class="BooleanParameter" enabled="true" level="INFO" enabled_by_default="true" />
+    <inspection_tool class="BooleanParameter" enabled="true" level="For Interest" enabled_by_default="true" />
     <inspection_tool class="BreakStatementWithLabel" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="BusyWait" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="CStyleArrayDeclaration" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -103,7 +103,7 @@
       <option name="insideTryAllowed" value="false" />
     </inspection_tool>
     <inspection_tool class="ClassEscapesItsScope" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="ClassHasNoToStringMethod" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <inspection_tool class="ClassHasNoToStringMethod" enabled="true" level="INFO" enabled_by_default="true">
       <option name="excludeClassNames" value="" />
       <option name="excludeException" value="true" />
       <option name="excludeDeprecated" value="true" />
@@ -161,7 +161,9 @@
       <option name="ignorePrivateMethodsAndFields" value="true" />
     </inspection_tool>
     <inspection_tool class="DefaultNotLastCaseInSwitch" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="DeserializableClassInSecureContext" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="DeserializableClassInSecureContext" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoreThrowable" value="true" />
+    </inspection_tool>
     <inspection_tool class="DivideByZero" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="DollarSignInName" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="DoubleBraceInitialization" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -226,7 +228,7 @@
     <inspection_tool class="FieldMayBeFinal" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="FieldMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="FieldNotUsedInToString" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="FieldRepeatedlyAccessed" enabled="true" level="INFO" enabled_by_default="true">
+    <inspection_tool class="FieldRepeatedlyAccessed" enabled="true" level="Performance" enabled_by_default="true">
       <option name="m_ignoreFinalFields" value="false" />
     </inspection_tool>
     <inspection_tool class="FinalMethodInFinalClass" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -359,8 +361,8 @@
       <option name="additionalMethods" value="format" />
     </inspection_tool>
     <inspection_tool class="MapReplaceableByEnumMap" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="MarkerInterface" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="MethodCallInLoopCondition" enabled="true" level="INFO" enabled_by_default="true" />
+    <inspection_tool class="MarkerInterface" enabled="true" level="INFO" enabled_by_default="true" />
+    <inspection_tool class="MethodCallInLoopCondition" enabled="true" level="Performance" enabled_by_default="true" />
     <inspection_tool class="MethodCanBeVariableArityMethod" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoreOverridingMethods" value="true" />
       <option name="onlyReportPublicMethods" value="true" />
@@ -439,7 +441,7 @@
     <inspection_tool class="NotifyWithoutCorrespondingWait" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="NullThrown" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="NumericToString" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="ObjectAllocationInLoop" enabled="true" level="INFO" enabled_by_default="true" />
+    <inspection_tool class="ObjectAllocationInLoop" enabled="true" level="Performance" enabled_by_default="true" />
     <inspection_tool class="ObjectEquality" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="m_ignoreEnums" value="true" />
       <option name="m_ignoreClassObjects" value="false" />
@@ -483,6 +485,8 @@
       <option name="ignoreEnums" value="false" />
       <option name="ignoreInterfaces" value="false" />
     </inspection_tool>
+    <inspection_tool class="PublicStaticArrayField" enabled="true" level="For Interest" enabled_by_default="true" />
+    <inspection_tool class="PublicStaticCollectionField" enabled="true" level="For Interest" enabled_by_default="true" />
     <inspection_tool class="QuestionableName" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="nameString" value="aa,abc,bad,bar,bar2,baz,baz1,baz2,baz3,bb,blah,bogus,bool,cc,dd,defau1t,dummy,dummy2,ee,fa1se,ff,foo,foo1,foo2,foo3,foobar,four,fred,fred1,fred2,gg,hh,hello,hello1,hello2,hello3,ii,nu11,one,silly,silly2,string,two,then,three,whi1e,var" />
     </inspection_tool>
@@ -514,9 +518,12 @@
     <inspection_tool class="RuntimeExecWithNonConstantString" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="SafeLock" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="SamePackageImport" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SameParameterValue" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="SerialPersistentFieldsWithWrongSignature" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="SerialVersionUIDNotStaticFinal" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="SerializableClassInSecureContext" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SerializableClassInSecureContext" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoreThrowable" value="true" />
+    </inspection_tool>
     <inspection_tool class="SetReplaceableByEnumSet" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="SharedThreadLocalRandom" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="SignalWithoutCorrespondingAwait" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -538,8 +545,8 @@
     <inspection_tool class="StaticCallOnSubclass" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="StaticFieldReferenceOnSubclass" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="StaticGuardedByInstance" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="StaticInheritance" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="StaticMethodOnlyUsedInOneClass" enabled="true" level="INFO" enabled_by_default="true" />
+    <inspection_tool class="StaticInheritance" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="StaticMethodOnlyUsedInOneClass" enabled="true" level="For Interest" enabled_by_default="true" />
     <inspection_tool class="StaticNonFinalField" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="StaticVariableInitialization" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="m_ignorePrimitives" value="false" />
@@ -664,7 +671,7 @@
       <option name="ignoreReferences" value="true" />
       <option name="ignoreComplexLiterals" value="false" />
     </inspection_tool>
-    <inspection_tool class="UnsecureRandomNumberGeneration" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="UnsecureRandomNumberGeneration" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="UnusedCatchParameter" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="m_ignoreCatchBlocksWithComments" value="false" />
       <option name="m_ignoreTestCases" value="false" />
