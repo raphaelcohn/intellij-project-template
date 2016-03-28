@@ -4,7 +4,7 @@
     <option name="myLocal" value="false" />
     <inspection_tool class="AbsoluteAlignmentInUserInterface" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="AbstractClassNeverImplemented" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="AbstractClassWithoutAbstractMethods" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="AbstractClassWithoutAbstractMethods" enabled="true" level="INFO" enabled_by_default="true" />
     <inspection_tool class="AbstractMethodOverridesAbstractMethod" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoreAnnotations" value="true" />
     </inspection_tool>
@@ -77,11 +77,9 @@
       <option name="ignoreBooleanMethods" value="false" />
       <option name="ignoreInAnnotationInterface" value="true" />
       <option name="onlyWarnOnBaseMethods" value="true" />
-      <option name="questionString" value="add,are,can,check,contains,could,endsWith,equals,has,is,matches,must,remove,shall,should,startsWith,was,were,will,would,does" />
+      <option name="questionString" value="add,are,can,check,contains,could,endsWith,equals,has,is,matches,must,remove,shall,should,startsWith,was,were,will,would,does,have" />
     </inspection_tool>
-    <inspection_tool class="BooleanParameter" enabled="true" level="WEAK WARNING" enabled_by_default="true">
-      <option name="onlyReportMultiple" value="true" />
-    </inspection_tool>
+    <inspection_tool class="BooleanParameter" enabled="true" level="INFO" enabled_by_default="true" />
     <inspection_tool class="BreakStatementWithLabel" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="BusyWait" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="CStyleArrayDeclaration" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -154,8 +152,8 @@
     <inspection_tool class="CovariantEquals" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="CustomClassloader" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="CustomSecurityManager" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="CyclicClassDependency" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="CyclicPackageDependency" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CyclicClassDependency" enabled="true" level="INFO" enabled_by_default="true" />
+    <inspection_tool class="CyclicPackageDependency" enabled="true" level="INFO" enabled_by_default="true" />
     <inspection_tool class="DanglingJavadoc" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="DateToString" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="DeclareCollectionAsInterface" enabled="true" level="WARNING" enabled_by_default="true">
@@ -606,7 +604,7 @@
     <inspection_tool class="ThrowablePrintStackTrace" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="ThrowsRuntimeException" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="TimeToString" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="TodoComment" enabled="true" level="INFO" enabled_by_default="true" />
+    <inspection_tool class="TodoComment" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
     <inspection_tool class="TooBroadCatch" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="TooBroadScope" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="m_allowConstructorAsInitializer" value="false" />
